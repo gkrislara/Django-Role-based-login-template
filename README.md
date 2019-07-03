@@ -8,3 +8,5 @@ Pre-Requisites:
 2) configure settings.py of the project 
       a)setup login and logout redirections
       b)template path (using os.path.join)
+      c)pip install django-bootstrap4 in the virtual environment
+      d)add accounts app to INSTALLED_APPS
