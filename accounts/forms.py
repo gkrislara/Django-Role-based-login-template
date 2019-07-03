@@ -47,7 +47,7 @@ class RoleOneLogin(AuthenticationForm):
                                         _("Username or password is incorrect!"),
                                         code="not_role1")
 
-class OwnerLogin(AuthenticationForm):
+class RoleTwoLogin(AuthenticationForm):
     def confirm_login_allowed(self,user):
         if not user.is_role2:
             raise forms.ValidationError(
