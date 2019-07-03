@@ -8,7 +8,7 @@ from . import forms
 class RoleOneSignUp(CreateView):
     form_class = forms.RoleOneCreateForm
     success_url = reverse_lazy("accounts:role1_login")
-    template_name = "accounts/role/signup.html"
+    template_name = "accounts/role1/signup.html"
 
     def get_context_data(self, **kwargs):
         kwargs['user_type'] = 'role_one'
