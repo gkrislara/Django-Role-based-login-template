@@ -10,3 +10,4 @@ Pre-Requisites:
       b)template path (using os.path.join)
       c)pip install django-bootstrap4 in the virtual environment
       d)add accounts app to INSTALLED_APPS
+      e)include accounts.urls in the base urls.py file
